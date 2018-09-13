@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.steam.library" name="Steam Library" version="0.0.1" provider-name="Julian">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Start your Steam games from Kodi.</summary>
+    <description lang="en">Select your Steam folder and start installed Steam games and Steam itself directly from Kodi</description>
+    <platform>all</platform>
+    <license>GNU General Public License version 3</license>
+    <email></email>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <news>Development version</news>
+  </extension>
+</addon>

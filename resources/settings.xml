@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+<category label="Steam Library">
+    <setting label="Select Steam folder" type="folder" id="steam_folder" source="local"/>
+    <setting label="Download game images" type="bool" id="download_images" default="true" />
+    <setting label="Scan library ..." type="action" option="close" action="RunPlugin(plugin://plugin.program.steam.library/?mode=scan)"/>
+</category>
+<category label="General">
+    <setting label="Show &quot;Launch Steam&quot; entry" type="bool" id="launch_steam_entry" default="true" />
+</category>
+</settings>
